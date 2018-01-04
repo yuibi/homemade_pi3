@@ -11,7 +11,7 @@ Requirements
 **Hardware**
 
 * Raspberry Pi 3
-* [Google AIY Voice Kit] (https://aiyprojects.withgoogle.com/voice)
+* [Google AIY Voice Kit](https://aiyprojects.withgoogle.com/voice)
 * Micro USB charger (1.5A)
 * Micro SD card
 
@@ -21,7 +21,7 @@ Requirements
 
 * Raspbian
 * Python >3.4
-* [Google AIY] (https://github.com/google/aiyprojects-raspbian)
+* [Google AIY](https://github.com/google/aiyprojects-raspbian)
 * Google Cloud Platform subscription for Google Speech API
 * Open JTalk
 
@@ -31,7 +31,7 @@ Instructions
 
 **Set up Google AIY Voice Kit**
 
-1. Follow this [tutorial] (https://aiyprojects.withgoogle.com/voice) to assemble hardware and set up Google Speech API.
+1. Follow this [tutorial](https://aiyprojects.withgoogle.com/voice) to assemble hardware and set up Google Speech API.
 2. Clone Google AIY repo on home directory.  
 `git clone https://github.com/google/aiyprojects-raspbian.git`
 3. Replace aiyprojects-raspbian/src/aiy/i18n.py to enable Japanese language for Google Speech API.
