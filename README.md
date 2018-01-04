@@ -2,7 +2,9 @@ Streaming Japanese Music on Google AIY Voice Kit
 =====
 The main objective of this project is to listen to Japanese music on Raspberry Pi 3 at home and while driving my car. The motivation behind this project is both Google Home and Amazon Alexa have *very* limited options when it comes to Japanese music subscription services outside Japan, but I wanted my kids to have exposure to Japanese music on a regular basis.
 
-I used Google Speech API for ASR/speech-to-text, and a custom scikit-learn gradient boosting model for capturing intent. Open JTalk is used for text-to-speech. Actual music streaming pieces are dependent on other people's hard work (e.g. Radiko script, youtube-dl, etc). :)
+To start the smart speaker, either say a your own wake word (e.g. "Alexa") or push the arcade button. Once you finish talking, Google Speech API will convert it to text, my custom gradient boosting model will predict intent (e.g. stream a certain radio station, search and stream music on YouTube, increase volume, skip to next song, etc), and execute commands.
+
+I used Google Speech API for ASR/speech-to-text, and scikit-learn for gradient boosting model to capture intent. Open JTalk is used for text-to-speech. Actual music streaming pieces are dependent on other people's hard work (e.g. Radiko script, youtube-dl, etc).
 
 
 Requirements
