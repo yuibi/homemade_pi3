@@ -1,0 +1,10 @@
+Description=My awesome cloud speech app
+
+[Service]
+ExecStart=/bin/bash -c '/home/pi/AIY-voice-kit-python/env/bin/python3 -u src/cloudspeech_yuibi_loop.py'
+WorkingDirectory=/home/pi/aiyprojects-raspbian
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target

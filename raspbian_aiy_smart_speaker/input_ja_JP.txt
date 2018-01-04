@@ -1,0 +1,28 @@
+音量 もうちょっと下げてください,VOLUMEDOWN
+江東区の天気,YOUTUBE
+音量を上げてください,VOLUMEUP
+来てください,YOUTUBE
+お正月の歌をかけてください,YOUTUBE
+音を少し下げてね,VOLUMEDOWN
+横浜 ラジオが聞きたい,YFM
+NHK FM 聞きたい,radiru_r3
+もう消していいですよ,STOP
+音量下げて,VOLUMEDOWN
+NHK FM が聞きたいです,radiru_r3
+NHK FM を再生して,radiru_r3
+NHK FM 聞きたい,radiru_r3
+宇多田ヒカルの歌を聞かせてください,YOUTUBE
+東京 FM を再生してください,FMT
+音量下げて,VOLUMEDOWN
+電源を切って下さい,STOP
+90年代の懐メロを再生して,YOUTUBE
+渚にまつわるエトセトラ を再生して,YOUTUBE
+宇多田ヒカル の最新曲を再生して,YOUTUBE
+音量 少し下げてください,VOLUMEDOWN
+ミリオンセラーの曲のメドレー,YOUTUBE
+いらない何も捨ててしまおう 再生して,YOUTUBE
+次の曲,NEXT
+東京ラブストーリーのリカのテーマの動画を再生して,YOUTUBE
+次の曲を聞かせてください,NEXT
+シャットダウンしてください,STOP
+j-pop のヒット曲を再生して,YOUTUBE
