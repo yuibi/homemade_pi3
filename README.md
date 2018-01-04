@@ -34,9 +34,8 @@ Instructions
 1. Follow this [tutorial](https://aiyprojects.withgoogle.com/voice) to assemble hardware and set up Google Speech API.
 2. Clone Google AIY repo on home directory.  
 `git clone https://github.com/google/aiyprojects-raspbian.git`
-3. Replace aiyprojects-raspbian/src/aiy/i18n.py to enable Japanese language for Google Speech API.
-4. Overwrite aiyprojects-raspbian/src with the content of *raspbian_aiy_smart_speaker* on this repo.
-5. Enable service:  
+3. Overwrite aiyprojects-raspbian/src with the content of *raspbian_aiy_smart_speaker* on this repo, which includes Japanese language support for Google Speech API, text-to-speech, and my smart speaker code.
+4. Enable service:  
 `sudo mv my_cloudspeech.service /lib/systemd/system/`  
 `sudo systemctl enable my_cloudspeech.service`
 
